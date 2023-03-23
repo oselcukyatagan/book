@@ -7,8 +7,10 @@
     --bg-secondary: #03C988;
 }
 
-body{
-   background-color: var(--bg-primary);
+
+.App{
+    display: flex;
+    background-color: var(--bg-primary);
     color: white;
 }
 
@@ -89,35 +91,26 @@ body{
     color: var(--bg-secondary);
 }
 
-.last-read{
-    display: inline-block;
-    position: absolute;
-    bottom: 1.4rem;
-}
-
-.last-read h1{
-    margin-left: 2rem;
-    font-family: 'Lato', sans-serif;
-}
-
 .card-holder{
-    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
 .card{
-    display: inline-block;
-    width: 10rem;
+    width: 8rem;
     margin-left: 2rem;
 }
 
 .card h1{
     font-size: 1.3rem;
-    color: #F7C04A;
+    color: white;
     font-family: 'Lato', sans-serif;
 }
 
 .card-image{
-    width: 10rem;
+    width: 100%;
     aspect-ratio: 3/5;
 }
 
