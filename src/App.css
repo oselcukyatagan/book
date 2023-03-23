@@ -92,15 +92,14 @@
 }
 
 .card-holder{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr)); /* minimum width of 12rem and auto-fill to fill up the available space */
+    gap: 2rem
 }
 
 .card{
-    width: 8rem;
-    margin-left: 2rem;
+    max-width: 100%;
 }
 
 .card h1{
