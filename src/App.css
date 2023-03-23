@@ -40,19 +40,14 @@
     padding-top: 2rem;
     padding-left: 0;
     margin: 0;
-}
-
-
-.sidebar-content ul{
     height: 20%;
-    margin-top: 5rem;
 }
 
 .sidebar-item{
     font-size: 1.4rem;
     margin-left: 4%;
     padding-top: 10px;
-    height: 3rem;
+    height: 4rem;
     list-style-type: none;
     padding-left: 2rem;
     margin-right: 1rem;
@@ -95,11 +90,13 @@
     margin: 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr)); /* minimum width of 12rem and auto-fill to fill up the available space */
+    height: 42.5rem;
     gap: 2rem
 }
 
 .card{
     max-width: 100%;
+    overflow: hidden;
 }
 
 .card h1{
