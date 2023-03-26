@@ -2,7 +2,7 @@ import React from "react";
 import LibData from "../data";
 import LibraryCard from "./LibraryCard";
 
-export default function Library(){
+export default function BookRender(){
 
     const cards = LibData.map(item => {
         return(

@@ -1,6 +1,7 @@
 import React from "react";
 import {AiFillHeart, AiFillSetting, AiOutlineLogout} from "react-icons/ai"
 import {FaBookOpen,FaBook} from "react-icons/fa"
+import {Link} from "react-router-dom"
 
 export default function Sidebar(){
     return(
@@ -8,25 +9,25 @@ export default function Sidebar(){
         <div className="sidebar">
 
             <div className="sidebar-logo">
-                <h1>ReadBook</h1>
+                <Link to="/"><h1>ReadBook</h1></Link>
             </div>
 
             <div className="sidebar-main">
                 <ul className="sidebar-content">
                     <li className="sidebar-item">
-                        <a href="/"><FaBookOpen size="2rem"/>
+                        <Link to="/library"><FaBookOpen size="2rem"/>
                             <span style={{marginLeft : "1rem"}}>Library</span>
-                        </a>
-                    </li >
-                    <li className="sidebar-item">
-                        <a href="/"><FaBook size="2rem"/>
-                            <span style={{marginLeft : "1rem"}}>Will Read</span>
-                        </a>
+                        </Link>
                     </li>
                     <li className="sidebar-item">
-                        <a href="/"><AiFillHeart size="2rem"/>
+                        <Link to="/will-read"><FaBook size="2rem"/>
+                            <span style={{marginLeft : "1rem"}}>Will Read</span>
+                        </Link>
+                    </li>
+                    <li className="sidebar-item">
+                        <Link to="/favorites"><AiFillHeart size="2rem"/>
                             <span style={{marginLeft : "1rem"}}>Favorites</span>
-                        </a>
+                        </Link>
                     </li>
                 </ul>
              </div>
