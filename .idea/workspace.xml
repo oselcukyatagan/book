@@ -6,16 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="92ca5c5a-52cc-421c-a33d-4ea882bb3b3c" name="Changes" comment="React-Router">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Library.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BookRender.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wtf/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wtf/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wtf/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BookRender.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BookRender.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Opening.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Opening.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +60,9 @@
       <option name="presentableId" value="Default" />
       <updated>1679587815072</updated>
       <workItem from="1679587815931" duration="6423000" />
-      <workItem from="1679869682075" duration="1071000" />
+      <workItem from="1679869682075" duration="4906000" />
+      <workItem from="1679874681985" duration="25000" />
+      <workItem from="1679916100564" duration="379000" />
     </task>
     <task id="LOCAL-00001" summary="LET HIM COOK">
       <created>1679589976876</created>
@@ -83,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679591749774</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="React-Router">
+      <created>1679870817404</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679870817404</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +93,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LET HIM COOK" />
-    <option name="LAST_COMMIT_MESSAGE" value="LET HIM COOK" />
+    <MESSAGE value="React-Router" />
+    <option name="LAST_COMMIT_MESSAGE" value="React-Router" />
   </component>
 </project>

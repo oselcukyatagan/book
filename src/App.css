@@ -34,9 +34,17 @@
     cursor: default;
 }
 
-.sidebar-logo h1{
+.sidebar-logo h1,
+.sidebar-logo a{
     color: white;
-    list-style-type: none;
+    text-decoration: none;
+
+}
+
+.sidebar-logo h1:hover{
+    background: linear-gradient(to right, #FF7F50, var(--bg-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .sidebar-content{
