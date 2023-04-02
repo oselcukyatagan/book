@@ -14,7 +14,6 @@ function App() {
         <Route path="/library" element={<Library/>}/>
         <Route path="/will-read" element={<WillRead/>}/>
         <Route path="/favorites" element={<Favorites/>}/>
-
     </Routes>
   );
 }

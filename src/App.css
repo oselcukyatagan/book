@@ -109,6 +109,7 @@
 .card{
     max-width: 100%;
     overflow: hidden;
+    height: 28rem;
 }
 
 .card h1{

@@ -1,7 +1,37 @@
-.direction-ltr {
-    direction: ltr;
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:ital,wght@1,300&display=swap');
+
+.hero-bg {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1; /* set the image behind the hero content */
 }
 
-body{
-    background: grey;
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative; /* add position:relative to create a new stacking context */
+}
+
+.hero-text {
+    width: 25rem;
+    z-index: 1; /* set the text above the image */
+}
+
+.hero-text>h1{
+    font-size: 2.5rem;
+    font-family: 'Merriweather', serif;
+}
+
+.hero-text>p{
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.hero-img {
+    width: 30%;
+    aspect-ratio: 4/5;
 }
