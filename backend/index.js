@@ -41,3 +41,17 @@ function GetBooks(req, res) {
 }
 app.get("/books", GetBooks);
 
+// Get a single book by ID
+function GetBookById(req, res) {
+    const bookId = req.params.id; // Extract the book ID from the URL
+    const MyQuery = "SELECT * FROM books WHERE id = ?"; // Query to fetch a single book
+
+    db.query(MyQuery, [bookId], (err, data) => {
+        if (err) return res.json(err); // Handle errors
+        if (data.length === 0) return res.status(404).json({ message: "Book not found" }); // Handle case where no book is found
+        return res.json(data[0]); // Return the first (and only) book in the result
+    });
+}
+
+// Add the new route
+app.get("/books/:id", GetBookById);

@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92ca5c5a-52cc-421c-a33d-4ea882bb3b3c" name="Changes" comment="Added backend.">
+    <list default="true" id="92ca5c5a-52cc-421c-a33d-4ea882bb3b3c" name="Changes" comment="I'm cooking rn.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BookRender.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BookRender.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LibraryCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LibraryCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Book-Details-Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/BookDetailsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LibraryCard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/BookDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/BookDetailsPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +106,8 @@
       <workItem from="1735949539921" duration="689000" />
       <workItem from="1738756062639" duration="10951000" />
       <workItem from="1738772108513" duration="789000" />
-      <workItem from="1738865834905" duration="6282000" />
+      <workItem from="1738865834905" duration="8539000" />
+      <workItem from="1738877245171" duration="5395000" />
     </task>
     <task id="LOCAL-00001" summary="LET HIM COOK">
       <created>1679589976876</created>
@@ -154,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738869712166</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="I'm cooking rn.">
+      <option name="closed" value="true" />
+      <created>1738874939018</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738874939018</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +187,7 @@
     <MESSAGE value="LET ME COOK!" />
     <MESSAGE value="Made css changes." />
     <MESSAGE value="Added backend." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added backend." />
+    <MESSAGE value="I'm cooking rn." />
+    <option name="LAST_COMMIT_MESSAGE" value="I'm cooking rn." />
   </component>
 </project>
