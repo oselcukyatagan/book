@@ -1,42 +1,35 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import LibData from "../data";
 import LibraryCard from "./LibraryCard";
+import {useFetcher} from "react-router-dom";
+import axios from "axios";
+
 
 export default function BookRender(){
 
-    const [cardData,setCardData] = React.useState(LibData)
+    const [books, setBooks] = useState([]);
 
-
-    function toggle(id){
-        setCardData(prevState => {
-            const newCardData = []
-            for(let i = 0; i < cardData.length; i++){
-                const currentCard = cardData[i]
-                if(currentCard.id === id){
-                    const updatedCard = {
-                        ...currentCard,
-                        isFavorite: !currentCard.isFavorite
-                    }
-                    newCardData.push(updatedCard)
-                }
-                else{
-                    newCardData.push(currentCard)
-                }
+    useEffect( () => {
+        const fetchBooks = async () => {
+            try{
+                const res = await axios.get("http://localhost:8800/books")
+                setBooks(res.data)
+                console.log(res)
+            }catch (err){
+                console.log(err)
             }
-        return newCardData
+        }
+        fetchBooks()
+    },[])
 
-        })
-    }
 
-    const cards = cardData.map(item => {
+    const cards = books.map(item => {
         return(
             <LibraryCard
                 title={item.title}
                 author={item.author}
                 cover={item.cover}
                 id={item.id}
-                isFavorite={item.isFavorite}
-                handleClick={toggle}
             />
         )
     })

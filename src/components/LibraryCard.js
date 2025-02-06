@@ -19,10 +19,6 @@ export default function LibraryCard(props){
 
             <img className="card-image" src={props.cover} alt="coverImage"/>
 
-
-
-
-
         </div>
 
     )

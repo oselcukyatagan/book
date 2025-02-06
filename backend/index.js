@@ -1,6 +1,7 @@
 import express from "express";
 import mysql from "mysql2"; // Import mysql2 instead of mysql
 import dotenv from "dotenv";
+import cors from "cors";
 
 // npm start
 
@@ -17,6 +18,7 @@ const db = mysql.createConnection({
 });
 
 app.use(express.json());
+app.use(cors())
 
 // Start the server
 app.listen(8800, () => {
@@ -38,3 +40,4 @@ function GetBooks(req, res) {
     });
 }
 app.get("/books", GetBooks);
+
