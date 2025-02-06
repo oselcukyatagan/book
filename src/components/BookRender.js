@@ -6,7 +6,6 @@ export default function BookRender(){
 
     const [cardData,setCardData] = React.useState(LibData)
 
-    console.log("rendered")
 
     function toggle(id){
         setCardData(prevState => {
