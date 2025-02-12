@@ -3,7 +3,19 @@ import mysql from "mysql2"; // Import mysql2 instead of mysql
 import dotenv from "dotenv";
 import cors from "cors";
 
-// npm start
+
+/*
+run npm start to start the server.
+
+intalled dotenv to mask the username and password.
+
+installed cors to not get sql errors
+
+
+
+
+*/
+
 
 dotenv.config(); // Load environment variables from .env file
 
