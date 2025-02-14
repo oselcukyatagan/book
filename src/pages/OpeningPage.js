@@ -8,7 +8,7 @@ export default function OpeningPage(){
     return(
 
         <>
-            <img src="/images/library-hero.jpg" className="hero-bg"/>
+            <img src="/images/library-hero.jpg" className="hero-bg" alt="img"/>
             <div className="hero">
                 <div className="hero-text">
                     <h1>SHARE YOUR READING EXPERIENCE</h1>

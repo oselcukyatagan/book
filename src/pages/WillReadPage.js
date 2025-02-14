@@ -1,21 +1,27 @@
 import React from 'react';
 import Sidebar from "../components/Sidebar";
+import axios from "axios";
 
 function WillReadPage() {
 
     const [formData, setFormData] = React.useState({title : "", author : "", cover: "", description : ""});
-    
 
     const handleChange = (e) =>{
-        setFormData({...formData, [e.target.name] : [e.target.value]})
+        setFormData((prev) => ({...prev, [e.target.name] : e.target.value}))
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
 
+      e.preventDefault();
 
+      try{
+        await axios.post("http://localhost:8800/books", formData);
+      }catch(err){
+        console.log(err);
+      }
 
         
-        e.preventDefault();
+        
         console.log("Form submitted:", formData);
       };
 
@@ -60,7 +66,7 @@ function WillReadPage() {
         className=""
       />
       <button type="submit" className="">
-        Login
+        Submit
       </button>
     </form>
     </div>

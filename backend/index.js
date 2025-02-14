@@ -62,13 +62,26 @@ function GetBookById(req, res) {
     });
 }
 
+
 // Add the new route
 app.get("/books/:id", GetBookById);
 
-function addBookToDatabase(){
+function addBookToDatabase(req,res){
 
-    const myQuery = "INSERT INTO books ('title', 'author', 'cover', 'description') VALUES (?)"
+    const myQuery = "INSERT INTO books (title, author, cover, description) VALUES (?)"
 
-    db.query(myQuery, )
+    const values = [req.body.title, req.body.author, req.body.cover, req.body.description];
+
+    db.query(myQuery, [values], (err,data) => {
+        if(err) return res.json(err);
+        return res.json("Book was created succesfully.")
+    })
     
 }
+
+
+app.post("/books", addBookToDatabase);
+
+ 
+
+ 

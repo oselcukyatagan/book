@@ -8,24 +8,6 @@ export default function BookRender(){
     const [books, setBooks] = useState([]);
     const navigate = useNavigate(); // Hook for navigation
 
-<<<<<<< HEAD
-
-    function toggle(id){
-        setCardData(prevState => {
-            const newCardData = []
-            for(let i = 0; i < cardData.length; i++){
-                const currentCard = cardData[i]
-                if(currentCard.id === id){
-                    const updatedCard = {
-                        ...currentCard,
-                        isFavorite: !currentCard.isFavorite
-                    }
-                    newCardData.push(updatedCard)
-                }
-                else{
-                    newCardData.push(currentCard)
-                }
-=======
     useEffect( () => {
         const fetchBooks = async () => {
             try{
@@ -34,7 +16,6 @@ export default function BookRender(){
                 console.log(res)
             }catch (err){
                 console.log(err)
->>>>>>> devolopment
             }
         }
         fetchBooks()

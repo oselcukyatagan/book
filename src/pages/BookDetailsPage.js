@@ -37,7 +37,7 @@ export default function BookDetailsPage() {
                     <p className="book-description">{book.description}</p>
                     <button 
                         className="back-button"
-                        onClick={() => navigate(`/book/library`)}
+                        onClick={() => navigate(`/library`)}
                     >
                         ← Back to Collection
                     </button>
