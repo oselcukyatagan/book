@@ -11,9 +11,6 @@ intalled dotenv to mask the username and password.
 
 installed cors to not get sql errors
 
-
-
-
 */
 
 
@@ -67,3 +64,11 @@ function GetBookById(req, res) {
 
 // Add the new route
 app.get("/books/:id", GetBookById);
+
+function addBookToDatabase(){
+
+    const myQuery = "INSERT INTO books ('title', 'author', 'cover', 'description') VALUES (?)"
+
+    db.query(myQuery, )
+    
+}

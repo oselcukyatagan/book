@@ -4,7 +4,7 @@ import axios from "axios";
 
 export default function BookDetailsPage() {
     const { id } = useParams(); // Extract the book ID from the URL
-    const [book, setBook] = useState(null); // State to store the book details
+    const [book, setBook] = useState(null); 
     const navigate = useNavigate();
 
     useEffect(() => {
