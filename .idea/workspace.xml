@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92ca5c5a-52cc-421c-a33d-4ea882bb3b3c" name="Changes" comment="LET ME COOK!">
+    <list default="true" id="92ca5c5a-52cc-421c-a33d-4ea882bb3b3c" name="Changes" comment="I'm cooking rn.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BookRender.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BookRender.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hero.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LibraryCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LibraryCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/opening.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/opening.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Favorites.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Favorites.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Opening.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Opening.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/WillRead.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/WillRead.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LibraryCard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/BookDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/BookDetailsPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +26,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2NQEGwEpu3o6hEKv3QDqQPbRwJX" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -42,6 +47,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -55,14 +61,38 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
     "vue.rearranger.settings.migration": "true"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;devolopment&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/nodejs/node.exe&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;C:/Program Files/nodejs/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.3.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+>>>>>>> devolopment
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\omerselcuk\Desktop\WebDev\ReadBook\public" />
       <recent name="C:\Users\omerselcuk\Desktop\WebDev\ReadBook\src" />
       <recent name="C:\Users\omerselcuk\Desktop\WebDev\ReadBook" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="App.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,6 +116,17 @@
       <workItem from="1680272796593" duration="21000" />
       <workItem from="1680290582442" duration="83000" />
       <workItem from="1680467875596" duration="3172000" />
+<<<<<<< HEAD
+=======
+      <workItem from="1735553253827" duration="520000" />
+      <workItem from="1735553787090" duration="231000" />
+      <workItem from="1735554026204" duration="121000" />
+      <workItem from="1735949539921" duration="689000" />
+      <workItem from="1738756062639" duration="10951000" />
+      <workItem from="1738772108513" duration="789000" />
+      <workItem from="1738865834905" duration="8539000" />
+      <workItem from="1738877245171" duration="5395000" />
+>>>>>>> devolopment
     </task>
     <task id="LOCAL-00001" summary="LET HIM COOK">
       <created>1679589976876</created>
@@ -115,12 +156,46 @@
       <option name="project" value="LOCAL" />
       <updated>1679936622770</updated>
     </task>
+<<<<<<< HEAD
     <option name="localTasksCounter" value="5" />
+=======
+    <task id="LOCAL-00005" summary="Made css changes.">
+      <option name="closed" value="true" />
+      <created>1738768762799</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738768762799</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added backend.">
+      <option name="closed" value="true" />
+      <created>1738869712165</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738869712166</updated>
+    </task>
+    <task id="LOCAL-00007" summary="I'm cooking rn.">
+      <option name="closed" value="true" />
+      <created>1738874939018</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738874939018</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+>>>>>>> devolopment
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+>>>>>>> devolopment
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -136,6 +211,13 @@
     <MESSAGE value="LET HIM COOK" />
     <MESSAGE value="React-Router" />
     <MESSAGE value="LET ME COOK!" />
+<<<<<<< HEAD
     <option name="LAST_COMMIT_MESSAGE" value="LET ME COOK!" />
+=======
+    <MESSAGE value="Made css changes." />
+    <MESSAGE value="Added backend." />
+    <MESSAGE value="I'm cooking rn." />
+    <option name="LAST_COMMIT_MESSAGE" value="I'm cooking rn." />
+>>>>>>> devolopment
   </component>
 </project>

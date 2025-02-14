@@ -1,13 +1,13 @@
 import React from 'react';
 import Sidebar from "../components/Sidebar";
 
-function Favorites() {
+function FavoritesPage() {
     return (
         <div className="App">
             <Sidebar />
-            <h1>Anne burala şurala</h1>
+            <h1>Will do later</h1>
         </div>
     );
 }
 
-export default Favorites;
+export default FavoritesPage;

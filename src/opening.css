@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 4rem;
     color: white;
     position: relative; /* add position:relative to create a new stacking context */
 }
@@ -34,4 +35,20 @@
 .hero-img {
     width: 30%;
     aspect-ratio: 4/5;
+}
+
+.opening-logo{
+    font-size: 15px;
+}
+
+.opening-logo h1,
+.opening-logo a{
+    color: white;
+    text-decoration: none;
+}
+
+.opening-logo h1:hover{
+    background: linear-gradient(to right, #FF7F50, var(--bg-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
